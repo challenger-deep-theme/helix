@@ -6,10 +6,11 @@
 "ui.selection" = { bg = "gray" }
 "ui.linenr" = { fg = "gray", modifiers = ["dim"], bg = "black" }
 "ui.linenr.selected" = { fg = "dark-blue", bg = "black", modifiers = ["bold"] }
-"comment" = { fg = "gray", modifiers = ["italic"] }
+"comment" = { fg = "gray", modifiers = ["italic", "dim"] }
 "ui.popup" = { bg = "black" }
 "ui.window" = { bg = "background" }
 "ui.statusline" = { fg = "foreground", bg = "black" }
+"ui.statusline.inactive" = { fg = "gray", bg = "black" }
 "ui.help" = { bg = "background", fg = "foreground" }
 "ui.cursor" = { bg = "background", modifiers = ["reversed"] }
 "ui.text" = "foreground"
