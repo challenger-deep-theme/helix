@@ -13,4 +13,4 @@ if it isn't there check your `HELIX_RUNTIME` env variable
 
 ![golang](./screenshots/golang.png)
 
-![empty buffer](./screnshots/empty_buffer.png)
+![empty buffer](./screenshots/empty_buffer.png)
