@@ -1,0 +1,76 @@
+# Author zSnails <erizojuan33@gmail.com>
+
+"ui.background" = { bg = "background" }
+"ui.menu" = { fg = "foreground", bg = "black" }
+"ui.menu.selected" = { fg = "black", bg = "gray" }
+"ui.selection" = { bg = "gray" }
+"ui.linenr" = { fg = "gray", modifiers = ["dim"], bg = "black" }
+"ui.linenr.selected" = { fg = "dark-blue", bg = "black", modifiers = ["bold"] }
+"comment" = { fg = "gray", modifiers = ["italic"] }
+"ui.popup" = { bg = "black" }
+"ui.window" = { bg = "background" }
+"ui.statusline" = { fg = "foreground", bg = "black" }
+"ui.help" = { bg = "background", fg = "foreground" }
+"ui.cursor" = { bg = "background", modifiers = ["reversed"] }
+"ui.text" = "foreground"
+
+"operator" = "dark-cyan"
+"special" = "green"
+"variable" = "foreground"
+"variable.builtin" = { fg = "blue" }
+"variable.parameter" = { fg = "magenta" }
+"constant.numeric" = { fg = "dark-yellow"}
+"constant" = "dark-yellow"
+"attributes" = "yellow"
+"type" = "blue"
+"type.builtin" = { fg = "cyan" }
+"string" = "yellow"
+"function" = "magenta"
+"variable.other.member" = "magenta"
+"keyword" = { fg = "red" }
+"keyword.control.conditional" = { fg = "dark-cyan"}
+"keyword.control.repeat" = { fg = "dark-cyan" }
+"keyword.directive" = { fg = "dark-magenta" }
+"namespace" = { fg = "dark-blue"}
+"special" = { fg = "blue" }
+"constructor" = { fg = "blue" }
+"tag" = { fg = "red" }
+ 
+"markup.heading" = { fg = "red" }
+"markup.raw.inline" = { fg = "green" }
+"markup.bold" = { fg = "dark-yellow", modifiers = ["bold"] }
+"markup.italic" = { fg = "dark-magenta", modifiers = ["italic"] }
+"markup.list" = { fg = "red" }
+"markup.quote" = { fg = "yellow" }
+"markup.link.url" = { fg = "cyan", modifiers = ["underlined"] }
+"markup.link.text" = { fg = "dark-yellow" }
+
+"diff.plus" = "dark-green"
+"diff.delta" = "dark-yellow"
+"diff.minus" = "dark-red"
+
+diagnostic = { modifiers = ["underlined"]}
+"info" = { fg = "green", modifiers = ["bold"] }
+"hint" = { fg = "blue", modifiers = ["bold"] }
+"debug" = { fg = "yellow", modifiers = ["bold"] }
+"warning" = { fg = "dark-yellow", modifiers = ["bold"] }
+"erorr" = {fg = "dark-red", modifiers = ["bold"]}
+
+[palette]
+
+black = "#100e23"
+gray = "#a6b3cc"
+foreground = "#cbe3e7"
+background = "#1b182c"
+red = "#ff8080"
+dark-red = "#ff5458"
+green = "#95ffa4"
+dark-green = "#62d196"
+yellow = "#ffe9aa"
+dark-yellow = "#ffb378"
+blue = "#91ddff"
+dark-blue = "#65b2ff"
+magenta = "#c991e1"
+dark-magenta = "#906cff"
+cyan = "#aaffe4"
+dark-cyan = "#63f2f1"
