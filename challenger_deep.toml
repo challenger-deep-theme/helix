@@ -31,13 +31,14 @@
 "variable.other.member" = { fg = "magenta" }
 
 "constant" = { fg = "dark-yellow" }
-"constant.numeric" = { fg = "dark-yellow"}
+"constant.builtin" = { fg = "cyan" }
+"constant.numeric" = { fg = "dark-yellow" }
 
 "type" = { fg = "blue" }
 "type.builtin" = { fg = "cyan" }
 
 "keyword" = { fg = "red" }
-"keyword.control.conditional" = { fg = "dark-cyan"}
+"keyword.control.conditional" = { fg = "dark-cyan" }
 "keyword.control.repeat" = { fg = "dark-cyan" }
 "keyword.control.directive" = { fg = "dark-magenta" }
 
@@ -46,6 +47,8 @@
 "attributes" = { fg = "yellow" }
 "string" = { fg = "yellow" }
 "function" = { fg = "magenta" }
+"function.builtin" = { fg = "cyan" }
+"function.macro" = { fg = "cyan" }
 "namespace" = { fg = "dark-blue"}
 "special" = { fg = "blue" }
 "constructor" = { fg = "blue" }
@@ -67,6 +70,7 @@
 diagnostic = { modifiers = ["underlined"] }
 "info" = "blue"
 "hint" = "green"
+"debug" = "yellow"
 "warning" = "dark-yellow"
 "error" = "dark-red"
 
