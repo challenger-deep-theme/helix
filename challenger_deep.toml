@@ -1,37 +1,51 @@
 # Author zSnails <erizojuan33@gmail.com>
 
 "ui.background" = { bg = "background" }
+
 "ui.menu" = { fg = "foreground", bg = "black" }
 "ui.menu.selected" = { fg = "black", bg = "gray" }
+
 "ui.selection" = { bg = "gray" }
+
 "ui.linenr" = { fg = "gray", modifiers = ["dim"], bg = "black" }
 "ui.linenr.selected" = { fg = "dark-blue", bg = "black", modifiers = ["bold"] }
-"comment" = { fg = "gray", modifiers = ["italic", "dim"] }
+
 "ui.popup" = { bg = "black" }
 "ui.window" = { bg = "background" }
+
 "ui.statusline" = { fg = "foreground", bg = "black" }
-"ui.statusline.inactive" = { fg = "gray", bg = "black" }
+"ui.statusline.inactive" = { fg = "gray", bg = "black", modifiers = ["dim"] }
+
 "ui.help" = { bg = "background", fg = "foreground" }
 "ui.cursor" = { bg = "background", modifiers = ["reversed"] }
-"ui.text" = "foreground"
+"ui.text" = { fg = "foreground" }
 
-"operator" = "dark-cyan"
-"special" = "green"
-"variable" = "foreground"
+"ui.highlight" = { fg = "green" }
+
+"operator" = { fg = "dark-cyan" }
+"special" = { fg = "green" }
+
+"variable" = { fg = "foreground" }
 "variable.builtin" = { fg = "blue" }
 "variable.parameter" = { fg = "magenta" }
+"variable.other.member" = { fg = "magenta" }
+
+"constant" = { fg = "dark-yellow" }
 "constant.numeric" = { fg = "dark-yellow"}
-"constant" = "dark-yellow"
-"attributes" = "yellow"
-"type" = "blue"
+
+"type" = { fg = "blue" }
 "type.builtin" = { fg = "cyan" }
-"string" = "yellow"
-"function" = "magenta"
-"variable.other.member" = "magenta"
+
 "keyword" = { fg = "red" }
 "keyword.control.conditional" = { fg = "dark-cyan"}
 "keyword.control.repeat" = { fg = "dark-cyan" }
-"keyword.directive" = { fg = "dark-magenta" }
+"keyword.control.directive" = { fg = "dark-magenta" }
+
+"comment" = { fg = "gray" }
+"comment.block.documentation" = { fg = "yellow" }
+"attributes" = { fg = "yellow" }
+"string" = { fg = "yellow" }
+"function" = { fg = "magenta" }
 "namespace" = { fg = "dark-blue"}
 "special" = { fg = "blue" }
 "constructor" = { fg = "blue" }
@@ -50,12 +64,11 @@
 "diff.delta" = "dark-yellow"
 "diff.minus" = "dark-red"
 
-diagnostic = { modifiers = ["underlined"]}
-"info" = { fg = "green", modifiers = ["bold"] }
-"hint" = { fg = "blue", modifiers = ["bold"] }
-"debug" = { fg = "yellow", modifiers = ["bold"] }
-"warning" = { fg = "dark-yellow", modifiers = ["bold"] }
-"erorr" = {fg = "dark-red", modifiers = ["bold"]}
+diagnostic = { modifiers = ["underlined"] }
+"info" = "blue"
+"hint" = "green"
+"warning" = "dark-yellow"
+"error" = "dark-red"
 
 [palette]
 
